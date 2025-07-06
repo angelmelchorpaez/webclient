@@ -1,6 +1,6 @@
 import http.client
 
-conexion=http.client.HTTPConnection(host="iottemp.martybel.es",port=80)
+conexion=http.client.HTTPSConnection(host="www.angelmelchor.pro",port=443)
 conexion.request(method="GET",url="/")
 respuesta=conexion.getresponse()
 print(f"Respuesta completa: {respuesta}")
